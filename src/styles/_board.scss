@@ -1,6 +1,7 @@
 main {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 0.5rem;
   width: 100%;
   max-width: 320px;
@@ -10,8 +11,10 @@ main {
 
   div {
     display: flex;
+    justify-content: center;
     gap: 0.5rem;
     width: 100%; 
     box-sizing: border-box;
+    background-color: red;
   }
 }
