@@ -1,0 +1,19 @@
+@use "./styles/variables" as v;
+@use "./styles/header";
+@use "./styles/tictactoe";
+@use "./styles/board";
+@use "./styles/tile";
+@use "./styles/footer";
+
+
+body {
+  margin: 0;
+  padding: 2rem 1rem;
+  background-color: #f9f9f7;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #4a4a4a; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  min-height: 100vh;     
+}

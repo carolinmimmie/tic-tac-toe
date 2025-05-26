@@ -1,0 +1,32 @@
+.tictactoe-container {
+    width: 350px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #f9c1cc 0%, #f3a6b1 100%);
+    border-radius: 12px;
+  
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: #4a2c35;
+  
+    @media (max-width: 480px) {
+      width: 95%;
+      padding: 0.8rem;
+    }
+  }
+  
+  .tictactoe-header,
+  .tictactoe-board,
+  .tictactoe-footer {
+    background-color: #ffe8ed; 
+    border-radius: 10px;
+    padding: 1rem;
+    border: 1.5px solid #f68cae;
+    color: #5a3943;
+  
+    @media (max-width: 480px) {
+      padding: 0.6rem;
+    }
+  }
+  
