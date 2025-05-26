@@ -1,10 +1,8 @@
-@use "./styles/variables" as v;
 @use "./styles/header";
 @use "./styles/tictactoe";
 @use "./styles/board";
 @use "./styles/tile";
 @use "./styles/footer";
-
 
 body {
   margin: 0;
@@ -15,5 +13,9 @@ body {
   display: flex;
   justify-content: center; 
   align-items: center;     
-  min-height: 100vh;     
+  min-height: 100vh; 
+  @media (max-width: 480px) {
+  
+    padding: 0rem 1rem;
+  }    
 }
